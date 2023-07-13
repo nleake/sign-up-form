@@ -1,3 +1,124 @@
-h2 {
-    color: red;
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.35;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(244, 237, 227);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+input {
+    padding: .2rem;
+    width: 80%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+img {
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale();
+}
+
+a {
+    color: #596D48;
+    font-weight: 600;
+}
+
+.sign-up {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+button {
+    background-color: #596D48;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: white;
+    margin: 1rem 2rem;
+}
+
+button:hover {
+    background-color: #2d3723;
+    cursor: pointer;
+}
+
+label {display: block;}
+
+input {
+    border: 1px solid #E5E7EB;
+}
+
+.intro {
+    margin: 0 auto;
+    font-size: 1.25rem;
+    padding: 2rem;
+}
+
+.sign-up-form {
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: 10px 5px 5px rgba(59, 57, 57, 0.14);
+}
+
+.login {
+    padding: 1rem 2rem;
+}
+
+fieldset {
+    border: none;
+}
+
+.intro>p {
+    padding-bottom: 1rem;
+    max-width: 54ch;
 }
