@@ -26,27 +26,28 @@
                 <form action="#" class="sign-up">
                     <fieldset>
                         <label for="first-name">First Name</label>
-                        <input name="first-name" id="first-name" placeholder="Thor" type="text">    
+                        <input name="first-name" id="first-name" required placeholder="Thor" type="text">    
                     </fieldset>
                     <fieldset>
                         <label for="last-name">Last Name</label>
-                        <input name="last-name" id="last-name" placeholder="Odinson" type="text">
+                        <input name="last-name" id="last-name" required placeholder="Odinson" type="text">
                     </fieldset>
                     <fieldset>
                         <label for="email">Email</label>
-                        <input name="email" id="email" placeholder="thor.odinson@gmail.com" type="email">
+                        <input name="email" id="email" required placeholder="thor.odinson@gmail.com" type="email">
                     </fieldset>
                     <fieldset>
                         <label for="phone-number">Phone Number</label>
-                        <input name="phone-number" id="phone-number" placeholder="555-555-5555" type="tel">
+                        <input name="phone-number" required id="phone-number" placeholder="555-555-5555" type="tel">
                     </fieldset>
                     <fieldset>
                         <label for="password">Password</label>
-                        <input name="password" id="password"  type="password">
+                        <input class="error" name="password" required id="password"  type="password">
+                        <span class="error-message">Passwords do not match.</span>
                     </fieldset>
                     <fieldset>
                         <label for="password-confirm">Confirm Password</label>
-                        <input name="password-confirm" id="password-confirm"  type="password">
+                        <input class="error" name="password-confirm" required id="password-confirm"  type="password">
                     </fieldset>
                 </form>
             </section>

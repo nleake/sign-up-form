@@ -121,6 +121,10 @@ input {
     border: 1px solid #E5E7EB;
 }
 
+input:focus {
+  border: 3px solid royalblue;
+}
+
 .intro {
     margin: 0 auto;
     font-size: 1.25rem;
@@ -153,4 +157,15 @@ fieldset {
   background-repeat: no-repeat;
   width: 40vw;
   height: 100vh;
+}
+
+.error {
+  border: 3px solid crimson;
+}
+
+.error-message {
+  font-size: .75rem;
+  display: block;
+  color: crimson;
+  padding-top: 2px;
 }
