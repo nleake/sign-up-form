@@ -16,9 +16,9 @@
     4. Improve text rendering
   */
   body {
-    line-height: 1.35;
+    line-height: 1.3;
     -webkit-font-smoothing: antialiased;
-    background-color: rgb(244, 237, 227);
+    background-color: rgb(228, 231, 242);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   /*
@@ -80,7 +80,7 @@ a {
     
 }
 
-h1 { color: white;}
+h1 { color: white; font-size: 2.5rem;}
 
 img {
   height: 10vh;
@@ -98,9 +98,11 @@ img {
   align-items: center;
   flex-flow: row wrap;
 }
-
+.logo > img {
+  height: 100px;
+}
 button {
-    background-color: #596D48;
+    background-color: #1B4C78;
     padding: .75rem 1.5rem;
     border-radius: .25rem;
     border: none;
