@@ -113,8 +113,11 @@ button {
 }
 
 button:hover {
-    background-color: #2d3723;
+    background-color: #2B79BE;
     cursor: pointer;
+}
+button:active {
+  background-color: #102f4a;
 }
 
 label {display: block;}
@@ -153,7 +156,7 @@ fieldset {
 }
 
 .sidebar {
-  background-image: url(https://images.unsplash.com/photo-1591848478625-de43268e6fb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(https://plus.unsplash.com/premium_photo-1664110691109-6558cb5ea476?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
